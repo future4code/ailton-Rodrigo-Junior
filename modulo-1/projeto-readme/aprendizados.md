@@ -1,0 +1,2 @@
+#Aprendizados da semana
+Primeira semana numa escola de programação, ainda estou muito tímido, mas estou confiante de que vai dar certo. Na primeira semana já aprendemos a usar o **Terminal**, o **Git** e o **GitHUB** e nesta atividade, aprendemos o que é um arquivo com a **extensão .md** e esse texto está sendo feito no editor de texto **VSCode**.
