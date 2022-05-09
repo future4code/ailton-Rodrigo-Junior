@@ -1,0 +1,2 @@
+#Aprendizados da semana
+Hoje foi a priemira semana em uma escola de programação, ainda está sendo muito diferente tudo isso, mas sei que aos poucos vou me soltando. E como primeira semana, já aprendemos sobre **Terminal**, sobre **Git**, sobre **GitHub** e nesse momento estou editando esse documento que tem uma extensão .md no editor de texto **VSCode**.
