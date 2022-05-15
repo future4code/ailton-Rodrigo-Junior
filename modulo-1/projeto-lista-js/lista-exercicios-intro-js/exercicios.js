@@ -148,7 +148,7 @@ function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
   const idade = prompt("Quantos anos você tem?")
   const escolaridade = prompt("Você possui ensino médio completo?")
-  const disponibilidade = prompt("Você possui disponibilidade exlusiva durante os horarios do curso?")
+  const disponibilidade = prompt("Você possui disponibilidade exlusiva durante os horarios do curso na semana?")
   const verificaIdade = idade.includes("sim")
   const verificaEscolaridade = escolaridade.includes("sim")
   const verificaDisponibilidade = disponibilidade.includes("sim")
