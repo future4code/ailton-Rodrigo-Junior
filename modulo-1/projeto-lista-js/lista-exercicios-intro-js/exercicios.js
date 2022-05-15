@@ -47,7 +47,7 @@ function imprimeInformacoesUsuario() {
   let nome = prompt("Qual é o seu nome?")
   let idade = prompt("Qual é a sua idade?")
   let email = prompt("Qual é o seu email?")
-  console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}`)
+  console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
 }
 
 // EXERCÍCIO 05
@@ -120,29 +120,39 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
-  const anoAtual = prompt("Em que ano estamos?")
-  const anoDeNascimento = prompt("Em que ano você nasceu?")
-  const anoEmissaoDaCarteira = prompt("Em que ano a sua carteira foi emitida?")
+  const anoAtual = +prompt("Em que ano estamos?")
+  const anoDeNascimento = +prompt("Em que ano você nasceu?")
+  const anoEmissaoDaCarteira = +prompt("Em que ano a sua carteira foi emitida?")
   const idade = anoAtual - anoDeNascimento
-  const tempoDeCarteira = anoEmissaoDaCarteira - anoAtual
-
+  const renovacao = anoAtual - anoEmissaoDaCarteira
+  const menosOuIgual20anos = idade <= 20 && renovacao >= 5
+  const pessoasEntre20e50anos = 20 < idade && idade <= 50 && renovacao >= 10
+  const pessoasComMaisDe50anos = idade > 50 && renovacao >= 15
+  const resposta = menosOuIgual20anos || pessoasEntre20e50anos || pessoasComMaisDe50anos
+  console.log (resposta)
 }
 
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
-  // const anoAtual = prompt("Em que ano estamos?")
-  // const multiploDe400 = anoAtual % 400 === 0
-  // const multiploDe4 = anoAtual % 4 === 0
-  // const multiploDe100 = anoAtual % 100 !==0
-  // const bissexto = multiploDe400 || multiploDe4 && multiploDe100
-  // return bissexto
+  const multiploDe400 = ano % 400 === 0
+  const multiploDe100eNao400 = ano % 100 === 0  && ano % 400 !==0
+  const multiploDe4 = ano % 4 === 0 && !multiploDe100eNao400
+  const bissexto = multiploDe400 || multiploDe4 
+  return bissexto
 
 }
 
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
-
+  const idade = prompt("Quantos anos você tem?")
+  const escolaridade = prompt("Você possui ensino médio completo?")
+  const disponibilidade = prompt("Você possui disponibilidade exlusiva durante os horarios do curso?")
+  const verificaIdade = idade.includes("sim")
+  const verificaEscolaridade = escolaridade.includes("sim")
+  const verificaDisponibilidade = disponibilidade.includes("sim")
+  const resposta = verificaIdade && verificaEscolaridade && verificaDisponibilidade
+  console.log(resposta)
 
 }
