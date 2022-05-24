@@ -60,7 +60,33 @@ return maior
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
+    let maiorNumero
+        if(num1 >= num2){
+        maiorNumero = num1
+        }
+        else if(num2 > num1){
+        maiorNumero = num2
+        }
+    let maiorDivisivelPorMenor 
+        if(num1 >= num2){
+            maiorDivisivelPorMenor = num1 % num2 === 0
+        }
+        else if(num2 > num1){
+            maiorDivisivelPorMenor = num2 % num1 === 0
+        }
+    let diferenca
+        if(num1 >= num2){
+            diferenca = num1 - num2
+        }
+        else if(num2 > num1){
+            diferenca = num2 - num1
+        }
+    let objeto ={
+        maiorNumero: maiorNumero,
+        maiorDivisivelPorMenor: maiorDivisivelPorMenor,
+        diferenca: diferenca,
+    }
+return objeto
 }
 
 // EXERCÍCIO 08
