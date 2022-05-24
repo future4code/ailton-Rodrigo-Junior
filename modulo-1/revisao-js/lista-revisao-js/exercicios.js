@@ -21,7 +21,10 @@ function retornaArrayOrdenado(array) {
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-
+    function compararNumeros (a,b){
+        return a - b;
+    }
+    return array.sort(compararNumeros)
 }
 
 // EXERCÍCIO 05
