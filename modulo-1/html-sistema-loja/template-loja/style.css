@@ -1,0 +1,13 @@
+header {
+    background-color: purple;
+    color: orange;
+    padding: 15px;
+    font-size: 200%;
+}
+.social-media {
+    width: 40px;
+    margin-left: 15px;
+}
+.products {
+    width: 25%;
+}
