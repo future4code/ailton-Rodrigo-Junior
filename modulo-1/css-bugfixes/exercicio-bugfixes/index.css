@@ -9,6 +9,9 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Roboto';
+}
 h2 {
     background-color: #fe7e02;
     padding: 10px 5px 10px 5px;
@@ -84,22 +87,23 @@ button:active{
     top: 100px;
     text-align: center;
     white-space: pre;
-    
 }
+
 #container-de-descricao>ol {
     padding: 25px 0px;
     position: relative;
     top: 100px;
 }
+
 #container-de-descricao>h3{
     position: relative;
     top: 100px;
 }
+
 #container-para-comprar {
     position: relative;
     bottom: 0;
-    background-color: #e7eb90;
-    
+    background-color: #e7eb90;    
 }
 
 #container-para-comprar>p {
