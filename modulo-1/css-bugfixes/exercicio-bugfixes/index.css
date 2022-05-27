@@ -1,0 +1,183 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+}
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+div img {
+    height: 70px;
+    width: 70px;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+}
+
+button:active{
+    color: white;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+}
+
+.icone {
+    height: 15px;
+    width: 15px;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    height: 50vh;
+    bottom: 0;
+    background-color: #2274a5;
+    color: white;
+}
+
+#container-de-descricao>p{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    white-space: pre;
+}
+
+#container-de-descricao>ol {
+    padding: 25px 0px;
+    position: relative;
+    top: 100px;
+}
+
+#container-de-descricao>h3{
+    position: relative;
+    top: 100px;
+}
+
+#container-para-comprar {
+    height: 50vh;
+    position: relative;
+    bottom: 0;
+    background-color: #e7eb90;    
+}
+
+#container-para-comprar>p {
+    position: relative;
+    top: 10vh;
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
+}
+
+.botao-amarelo {
+    text-align: center;
+    position: relative;
+    top: 20vh;
+   }
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+    
+}
+
+table {
+    text-align: center;
+    width: 40%;
+    position: relative;
+    left: 60vh;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+td button:hover{
+    background-color: #ffd000;
+}
+td button:active{
+    color: white;
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+input[type=text]{
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+    position: relative;
+    top: 20vh;
+    left: 90vh;
+}
+
+#back-button:hover {
+    background-color: #635a3d
+}
