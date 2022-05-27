@@ -34,7 +34,8 @@ div>p:first-child {
 }
 
 div img {
-    background: black;
+    height: 70px;
+    width: 70px;
 }
 
 .botao-amarelo {
@@ -122,10 +123,9 @@ div:last-child {
 }
 
 table {
-    border: 2px solid black ;
-    width: 60%;
+    width: 50%;
     position: relative;
-    left: 30vh;
+    left: 50vh;
 }
 
 td button {
