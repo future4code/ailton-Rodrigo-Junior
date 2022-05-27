@@ -118,10 +118,14 @@ div img {
 div:nth-child(2),
 div:last-child {
     text-align: center;
+    
 }
 
 table {
+    border: 2px solid black ;
     width: 60%;
+    position: relative;
+    left: 30vh;
 }
 
 td button {
