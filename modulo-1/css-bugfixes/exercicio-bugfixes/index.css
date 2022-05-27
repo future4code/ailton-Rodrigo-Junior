@@ -84,8 +84,13 @@ div img {
     padding: 100px 0;
     font-size: 60px;
 }
+#central-botao {
+    text-align: center;
+   }
 
-
+.container-para-comprar{
+    border: 1px solid black;
+}
 /**
   *
   *  ESTILOS COMPRAR 
