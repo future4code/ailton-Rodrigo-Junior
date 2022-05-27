@@ -44,6 +44,9 @@ div img {
     border-radius: 5px;
     font-size: 20px;
     color: white;
+    position: absolute;
+    top: 90vh;
+    left: 88vh;
 }
 
 .botao-amarelo:hover {
@@ -67,6 +70,8 @@ div img {
   **/
 
 #container-de-descricao {
+    height: 60vh;
+    bottom: 0;
     background-color: #2274a5;
     color: white;
 }
@@ -76,21 +81,25 @@ div img {
 }
 
 #container-para-comprar {
+    bottom: 0;
     background-color: #e7eb90;
+    
 }
 
 #container-para-comprar>p {
+    position: absolute;
+    top: 60vh;
+    left: 70vh;
+    margin: 100px;
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
 }
+
 #central-botao {
     text-align: center;
    }
 
-.container-para-comprar{
-    border: 1px solid black;
-}
 /**
   *
   *  ESTILOS COMPRAR 
