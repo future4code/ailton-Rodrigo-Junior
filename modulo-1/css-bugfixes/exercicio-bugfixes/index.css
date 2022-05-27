@@ -51,6 +51,10 @@ div img {
     background-color: #c44f00;
 }
 
+button:active{
+    color: white;
+}
+
 .container {
     height: 500px;
     text-align: center;
@@ -135,6 +139,13 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+}
+
+td button:hover{
+    background-color: #ffd000;
+}
+td button:active{
+    color: white;
 }
 
 .container-do-search {
