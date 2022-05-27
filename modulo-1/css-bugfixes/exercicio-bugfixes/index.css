@@ -76,7 +76,7 @@ button:active{
   **/
 
 #container-de-descricao {
-    height: 57vh;
+    height: 50vh;
     bottom: 0;
     background-color: #2274a5;
     color: white;
@@ -101,13 +101,15 @@ button:active{
 }
 
 #container-para-comprar {
+    height: 50vh;
     position: relative;
     bottom: 0;
     background-color: #e7eb90;    
 }
 
 #container-para-comprar>p {
-    margin: 100px;
+    position: relative;
+    top: 10vh;
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
@@ -116,7 +118,7 @@ button:active{
 .botao-amarelo {
     text-align: center;
     position: relative;
-    top: 10vh;
+    top: 20vh;
    }
 
 /**
@@ -132,9 +134,10 @@ div:last-child {
 }
 
 table {
-    width: 50%;
+    text-align: center;
+    width: 40%;
     position: relative;
-    left: 50vh;
+    left: 60vh;
 }
 
 td button {
@@ -170,6 +173,9 @@ input[type=text]{
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    position: relative;
+    top: 20vh;
+    left: 90vh;
 }
 
 #back-button:hover {
