@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
+    background-color: rgb(80, 83, 107);
 }
 
 .container{
@@ -13,41 +14,54 @@
 }
 
 header{
+    background-color: rgb(255, 174, 0);
     grid-row: 1 / 1;
     grid-column: 1 / 5;
-    background-color: rgb(255, 174, 0);
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    height: 55px;
+    width: 100vw;
+
 }
 
 header > input{
+    background-color: white;
     border: none;
     height: 30px;
     align-items: center;
     border-radius: 4px;
-    margin-left: 1600px;
+    position: fixed;
+    right: 30px;
 }
 
 header > img {
     height: 40px;
+    background-color: rgb(255, 174, 0);
 }
 
 header > button >img{
     height: 20px;
     width: 20px;
+    background-color: white;
 }
 
 header > button{
+    background-color: white;
+    border-radius: 4px;
     height: 30px;
     width: 30px;
+    position: fixed;
+    right: 0;
 }
 
 main{
-    background-color: rgb(80, 83, 107);
     grid-row: 2 / 6;
     grid-column: 1 / 5;
+    padding: 10vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -59,10 +73,11 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0px;
+    gap: 10px;
     font-size: 10px;
     color: white;
 }
+
 .media > video{
     height: 200px;
     width: 400px;
@@ -72,9 +87,36 @@ main{
 footer{
     background-color: rgb(255, 174, 0);
     grid-row: 6 / 7;
-    grid-column: 1 / 5;
+    grid-column: 1 / 5; 
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+    height: 55px;
+    width: 100vw;
+}
+
+@media screen and (min-width:390px) and (max-width:480px){
+    header{
+        width: 100vh;
+    }
+
+    main{
+        justify-content: center;
+        padding: 1vh;
+    }
+    footer{
+        width: 100vh;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:820px){
+    main{
+        justify-content: center;
+        padding: 1vh;
+    }
 }
