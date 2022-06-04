@@ -76,6 +76,7 @@ main{
     gap: 10px;
     font-size: 10px;
     color: white;
+    padding-bottom: 60px;
 }
 
 .media > video{
@@ -107,6 +108,7 @@ footer{
         justify-content: center;
         padding: 1vh;
     }
+
     footer{
         width: 100vh;
         justify-content: flex-start;
@@ -118,5 +120,12 @@ footer{
     main{
         justify-content: center;
         padding: 1vh;
+    }
+}
+
+@media screen and (min-width: 1131px) {
+
+    .media {
+        padding-bottom: 0;
     }
 }
