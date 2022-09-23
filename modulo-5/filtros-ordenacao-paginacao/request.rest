@@ -1,0 +1,2 @@
+GET http://localhost:3003/all?order=type&page=5
+
